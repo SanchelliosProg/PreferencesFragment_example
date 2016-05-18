@@ -5,4 +5,17 @@
     <string name="gdp">gdp</string>
     <string name="test">test</string>
     <string name="refresh">refresh</string>
+    <!-- FOR PREFERENCES-->
+    <string name="africa_enabled_title">Enable african countries</string>
+    <string name="africa_enabled_summary">Check it to include african countries to the main list of countries.</string>
+    <string name="europe_enabled_title">Enable european countries</string>
+    <string name="europe_enabled_summary">Check it to include european countries to the main list of countries.</string>
+    <string name="asia_enabled_title">Enable asian countries</string>
+    <string name="asia_enabled_summary">Check it to include asian countries to the main list of countries.</string>
+    <string name="australia_oc_enabled_title">Enable australia and oceania countries</string>
+    <string name="australia_oc_enabled_summary">Check it to include australia and oceania countries to the main list of countries.</string>
+    <string name="north_america_enabled_title">Enable north-american countries</string>
+    <string name="north_america_enabled_summary">Check it to include north-american countries to the main list of countries.</string>
+    <string name="south_america_enabled_title">Enable south-american countries</string>
+    <string name="south_america_enabled_summary">Check it to include south-american countries to the main list of countries.</string>
 </resources>
