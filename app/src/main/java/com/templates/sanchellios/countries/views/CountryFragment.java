@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import com.templates.sanchellios.countries.R;
 import com.templates.sanchellios.countries.country.Country;
 import com.templates.sanchellios.countries.data.database.DbDataManager;
+import com.templates.sanchellios.countries.data.preferences.CountriesChoisePrefs;
 import com.templates.sanchellios.countries.data.preferences.RecyclerPositionManager;
 
 import java.util.ArrayList;
@@ -65,6 +66,8 @@ public class CountryFragment extends Fragment {
 
     private ArrayList<Country> getCountries(){
         DbDataManager dbDataManager = new DbDataManager(getContext().getApplicationContext());
+        CountriesChoisePrefs countriesChoisePrefs =
+                new CountriesChoisePrefs(getContext().getApplicationContext());
         return dbDataManager.loadCountriesFormDb();
     }
 }
