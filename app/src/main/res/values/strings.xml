@@ -5,6 +5,7 @@
     <string name="gdp">gdp</string>
     <string name="test">test</string>
     <string name="refresh">refresh</string>
+    <string name="settings">settings</string>
     <!-- FOR PREFERENCES-->
     <string name="africa_enabled_title">Enable african countries</string>
     <string name="africa_enabled_summary">Check it to include african countries to the main list of countries.</string>

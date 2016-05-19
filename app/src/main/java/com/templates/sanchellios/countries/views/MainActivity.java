@@ -1,6 +1,7 @@
 package com.templates.sanchellios.countries.views;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 positionManager.resetPosition();
                 refreshDb(getApplicationContext());
                 startCountryListFrag();
+                return true;
+            case R.id.settings:
+                startActivity(new Intent(this, Preferences.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

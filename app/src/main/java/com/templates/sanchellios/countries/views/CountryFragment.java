@@ -65,6 +65,6 @@ public class CountryFragment extends Fragment {
 
     private ArrayList<Country> getCountries(){
         DbDataManager dbDataManager = new DbDataManager(getContext().getApplicationContext());
-        return dbDataManager.loadAllCountriesFormDb();
+        return dbDataManager.loadCountriesFormDb();
     }
 }

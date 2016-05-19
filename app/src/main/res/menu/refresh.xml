@@ -6,4 +6,9 @@
         android:icon="@drawable/ic_refresh_white_24dp"
         android:title="@string/refresh"
         app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/settings"
+        android:orderInCategory="100"
+        android:id="@+id/settings"
+        app:showAsAction="never"/>
 </menu>
