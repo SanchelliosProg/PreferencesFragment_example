@@ -143,6 +143,30 @@ public class DefaultData {
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/2000px-Flag_of_Uganda.svg.png");
         countries.add(country);
 
+        country = new Country("Sweden", 9875378, 467.450, ContinentConst.EUROPE);
+        country.addInternetResources(
+                "https://en.wikipedia.org/wiki/Sweden",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Greater_coat_of_arms_of_Sweden_(without_ermine_mantling).svg/2000px-Greater_coat_of_arms_of_Sweden_(without_ermine_mantling).svg.png",
+                "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1600px-Flag_of_Sweden.svg.png"
+        );
+        countries.add(country);
+
+        country = new Country("Papua New Guinea", 7059653, 19.828, ContinentConst.AUSTRALIA_AND_OCEANIA);
+        country.addInternetResources(
+                "https://en.wikipedia.org/wiki/Papua_New_Guinea",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Emblem_of_Papua_New_Guinea.svg/2000px-Emblem_of_Papua_New_Guinea.svg.png",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/2000px-Flag_of_Papua_New_Guinea.svg.png"
+        );
+        countries.add(country);
+
+        country = new Country("Bolivia", 11410651, 73.879, ContinentConst.SOUTH_AMERICA);
+        country.addInternetResources(
+                "https://en.wikipedia.org/wiki/Bolivia",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Coat_of_arms_of_Bolivia.svg/2000px-Coat_of_arms_of_Bolivia.svg.png",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_(state).svg/2000px-Flag_of_Bolivia_(state).svg.png"
+        );
+        countries.add(country);
+
         return countries;
     }
 }
