@@ -22,17 +22,6 @@ public class DbDataManager {
         dbHelper = DbHelper.getInstance(context);
     }
 
-    public ArrayList<Country> loadCountriesFormDb(){
-        ArrayList<Country> countries = new ArrayList<>();
-        db = dbHelper.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT * FROM " + DbContracts.CountryTable.TABLE_NAME +
-                " ORDER BY "+ CountryTable.COUNTRY_NAME+" ASC;", null);
-        cursor.moveToFirst();
-        addCountriesToList(cursor, countries);
-        cursor.close();
-        return countries;
-    }
-
     public ArrayList<Country> loadCountriesFormDb(String whereStatement){
         ArrayList<Country> countries = new ArrayList<>();
         db = dbHelper.getReadableDatabase();
