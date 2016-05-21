@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableAfrica"
+        android:summary="@string/africa_enabled_summary"
+        android:title="@string/africa_enabled_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableEurope"
+        android:summary="@string/europe_enabled_summary"
+        android:title="@string/europe_enabled_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableAsia"
+        android:summary="@string/africa_enabled_summary"
+        android:title="@string/asia_enabled_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableAustralia"
+        android:summary="@string/australia_oc_enabled_summary"
+        android:title="@string/australia_oc_enabled_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableNAmerica"
+        android:summary="@string/north_america_enabled_summary"
+        android:title="@string/north_america_enabled_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableSAmerica"
+        android:summary="@string/south_america_enabled_summary"
+        android:title="@string/south_america_enabled_title" />
+</PreferenceScreen>
