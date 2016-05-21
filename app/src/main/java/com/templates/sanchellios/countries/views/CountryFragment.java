@@ -13,7 +13,7 @@ import com.templates.sanchellios.countries.R;
 import com.templates.sanchellios.countries.country.Country;
 import com.templates.sanchellios.countries.data.database.ContinentsWhereStmtCreator;
 import com.templates.sanchellios.countries.data.database.DbDataManager;
-import com.templates.sanchellios.countries.data.preferences.CountriesChoicePrefs;
+import com.templates.sanchellios.countries.data.preferences.ContntChoicePrefs;
 import com.templates.sanchellios.countries.data.preferences.RecyclerPositionManager;
 
 import java.util.ArrayList;
@@ -69,7 +69,7 @@ public class CountryFragment extends Fragment {
         DbDataManager dbDataManager = new DbDataManager(getContext().getApplicationContext());
         return dbDataManager.loadCountriesFormDb(
                 new ContinentsWhereStmtCreator().getWhereStatement(
-                        new CountriesChoicePrefs(getContext().getApplicationContext())
+                        new ContntChoicePrefs(getContext().getApplicationContext())
                                 .getCountryStatuses())
         );
     }
